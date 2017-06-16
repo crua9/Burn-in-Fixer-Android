@@ -6,12 +6,8 @@
     android:gravity="center"
     android:orientation="vertical">
 <!--
-    Need to:
-    When button click, screen turn whichever color and everything hides. After which the person clicks the screen to come back.
-
-
-    By changing the colors underneath the burn-in, the app can effectively make the burn-in marks disappear.
-    They’re still there, but the screen is effectively doing what noise cancelling headphones do: analysing the signal and defeating it with a mirror image.
+    I haven't done anything to this yet. This fix will go through the colors.
+    There needs to be a warning because the colors will switch often.
 -->
     <TextView
         android:id="@+id/textView11"
@@ -53,12 +49,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="White mirror" />
+        android:text="Start" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Black mirror" />
 </LinearLayout>

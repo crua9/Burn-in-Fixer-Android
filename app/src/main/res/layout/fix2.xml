@@ -6,8 +6,8 @@
     android:gravity="center"
     android:orientation="vertical">
 <!--
-    I haven't done anything to this yet. This fix will go through the colors.
-    There needs to be a warning because the colors will switch often.
+    To do:
+    When button is pressed, everything hides and the screen turns a diff color every so often.
 -->
     <TextView
         android:id="@+id/textView11"
@@ -20,10 +20,20 @@
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOTE: by pressing start, you understand your screen will flash colors quickly. "
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
         android:id="@+id/textView14"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="By changing the colors underneath the burn-in, the app can effectively make the burn-in marks disappear. "
+        android:text='A sequence of primary colors is displayed on your device, restoring the "burnt" pixels. '
         android:textAlignment="center"
         android:textColor="@android:color/background_dark" />
 
@@ -31,18 +41,19 @@
         android:id="@+id/textView15"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="They’re still there, but the screen is effectively doing what noise cancelling headphones do: analysing the signal and defeating it with a mirror image. Use your best judgment for which of the 2 below to mirror. After selecting one of the buttons below, you can just tap the screen to come back here."
+        android:text='This was the original function of computer screen-savers: one dynamic image that appears when the screen is idle to makes the pixels "exercise" and ensure that the same area of display doesn’t remain constantly illuminated.'
         android:textAlignment="center"
         android:textColor="@android:color/background_dark" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/textView17"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="."
+        android:text="To stop this fix, just tap on the screen."
         android:textAlignment="center"
-        android:textColor="@android:color/black" />
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button"

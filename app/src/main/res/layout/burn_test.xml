@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/burnout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/background_light"
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView13"
-        android:layout_width="match_parent"
+        android:id="@+id/testtext"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Please click anywhere. This will cycle the colors so you can see which color is burnt in. This is important for if you have an ALOED display. The A" />
-</LinearLayout>
+        android:text="Please touch anywhere. This will cycle the colors so you can see which color is burnt in. "
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:textColor="@android:color/background_dark" />
+</FrameLayout>

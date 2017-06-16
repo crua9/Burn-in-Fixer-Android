@@ -88,9 +88,11 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_manage) {
 
-        } else if (id == R.id.nav_share) {
+            //not sure if this is needed at this time or in the future
 
-        } else if (id == R.id.nav_send) {
+        // } else if (id == R.id.nav_share) {
+
+        // } else if (id == R.id.nav_send) {
 
         }
 
